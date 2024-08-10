@@ -1,2 +1,4 @@
 # README-
-n1 = input('Qual seu nome ?') n2 = int(input('Qual sua idade ?')) s = 100-n2 print('Olá {}, falta {} idade pra chegar a 100 anos'.format(n1,s))
+Progama com linguagem em python. Explicação: foi criado três variáveis (n1), (n2) e (s), sendo que na variável (n1) o comando solicita ao usuário que insira o seu nome; na variável (n2) o programa pede ao usuário que insira a sua idade; já na variável (S) é calculado o resultado de quantos anos faltam para que o usuário complete os seus 100 anos, subtraindo a idade atual do usuário (n2) de 100. Por fim, a mensagem 'Olá, {}! Faltam {} anos para completar 100 anos' é formatada com os valores de (n1) e (S) usando o método format(). Se o usuário digitar "Bia" como nome e "25" como idade, a saída será:75.
+
+Comandos utilizados nessa linguagem: n1 = input('Qual seu nome ?') n2 = int(input('Qual sua idade ?')) s = 100 - n2 print('Olá {}, falta {} idade pra chegar a 100 anos'.format(n1,s))
